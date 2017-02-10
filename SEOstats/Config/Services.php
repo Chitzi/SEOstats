@@ -50,7 +50,7 @@ interface Services
     const OPENSITEEXPLORER_URL = 'http://www.opensiteexplorer.org/%s?group=0&page=%s&site=%s&sort=';
 
     // Facebook FQL API Endpoint.
-    const FB_LINKSTATS_URL = 'https://api.facebook.com/method/fql.query?query=%s&format=json';
+    const FB_LINKSTATS_URL = 'http://graph.facebook.com/?id=%s';
 
     // Twitter URL tweet count API Endpoint (Use of this Endpoint is actually not allowed (see link)!).
     // @link https://dev.twitter.com/discussions/5653#comment-11514
